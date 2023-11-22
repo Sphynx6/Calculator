@@ -133,7 +133,6 @@ operators.forEach(button => {
 equals.addEventListener('click', () => {
     calculator.calculate()
     calculator.updateDisplay()
-    calculator.clear()
 })
   
 ac.addEventListener('click', () => {
